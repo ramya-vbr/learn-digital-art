@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-export default function Home() {
+export default function Art() {
   return (
     <div>
-      <Link href="/art">
-        Go to art work
+      <Link href="/">
+        Go back to Home
       </Link>
     </div>
   );
