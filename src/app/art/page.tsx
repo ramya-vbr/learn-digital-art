@@ -19,7 +19,7 @@ export default function Art() {
         <div className="shape shape12 bg-gradient-to-r from-green-500 to-green-300 -top-12 right-2"></div>
         <div className="shape shape13 bg-gradient-to-r from-yellow-500 to-yellow-300 -top-12 right-2.5"></div>
         <div className="shape shape14 bg-gradient-to-r from-blue-500 to-blue-300 -top-12 right-4"></div>
-        <div className="shape shape15 bg-gradient-to-r from-gray-500 to-gray-300 -top-12 right-7"></div>
+        <div className="shape shape15 bg-gradient-to-r from-gray-500 to-gray-300 -top-12 right-6.5"></div>
         <div className="shape shape16 bg-gradient-to-r from-teal-500 to-cyan-300 -top-12 right-3"></div>
         <div className="shape shape17 bg-gradient-to-r from-purple-500 to-violet-500 -top-12 right-1/5"></div>
         <div className="shape shape18 bg-gradient-to-r from-orange-500 to-yellow-500 -top-12 right-3.5"></div>

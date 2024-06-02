@@ -21,7 +21,7 @@ const Dialog = ({ isOpen, onClose }: DialogProps) => {
             &times;
           </button>
         </div>
-        <div className="relative p-4 font-serif text-base antialiased font-light leading-relaxed border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 text-blue-gray-500">
+        <div className="relative p-4 font-sans text-base antialiased font-light leading-relaxed border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 text-blue-gray-500">
           &quot;The &apos;Mona Lisa,&apos; painted by Leonardo da Vinci between
           1503 and 1506, is a masterpiece of the Italian Renaissance. Known for
           her enigmatic expression, the &apos;Mona Lisa&apos; has captivated
@@ -34,7 +34,7 @@ const Dialog = ({ isOpen, onClose }: DialogProps) => {
             onClick={onClose}
             data-ripple-dark="true"
             data-dialog-close="true"
-            className="px-6 py-3 mr-1 font-sans text-xs font-bold text-gray-900 uppercase transition-all rounded-lg middle none center bg-red-500 hover:bg-red-600/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            className="px-6 py-3 mr-1 font-sans text-xs font-bold text-white uppercase transition-all rounded-lg middle none center bg-red-500 hover:bg-red-600/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           >
             Cancel
           </button>

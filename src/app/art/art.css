@@ -10,27 +10,26 @@
   @apply absolute w-12 h-12 opacity-70 rounded-full;
   animation: spin 5s infinite;
 }
-
+/* triangle */
 .shape1,
 .shape18 {
-  animation-duration: 5s;
-  background-image: linear-gradient(
-    rgb(238 227 227 / 40%),
-    rgb(241 11 11 / 50%)
-  );
+  background-image: linear-gradient(#c03a3a66, #bc5dd9);
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
   width: 100px;
   height: 100px;
 }
-
+.shape1 {
+  animation-duration: 8s;
+}
+.shape18 {
+  animation-duration: 10s;
+}
+/* star */
 .shape2,
 .shape13 {
-  width: 90px;
-  height: 90px;
-  background-image: linear-gradient(
-    rgb(238 227 227 / 40%),
-    rgb(241 11 11 / 50%)
-  );
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(#bc5dd9, #f43f5e);
   clip-path: polygon(
     50% 5%,
     61% 40%,
@@ -43,36 +42,61 @@
     2% 40%,
     39% 40%
   );
-  animation-duration: 6s;
 }
-
+.shape2 {
+  animation-duration: 15s;
+}
+.shape13 {
+  animation-duration: 9s;
+}
 .shape3,
 .shape14 {
-  width: 80px;
-  height: 80px;
-  animation-duration: 4s;
+  width: 90px;
+  height: 90px;
+  background-image: linear-gradient(#f43f5e, #3b82f6);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
-
+.shape3 {
+  animation-duration: 9s;
+}
+.shape14 {
+  animation-duration: 6s;
+}
+/* rhombus */
 .shape4,
 .shape15 {
-  width: 70px;
-  height: 70px;
-  animation-duration: 7s;
+  width: 145px;
+  height: 145px;
+  background-image: linear-gradient(#ffeb3b, #e91e63);
   clip-path: polygon(100% 50%, 50% 100%, 0% 50%, 50% 0%);
 }
-
+.shape4 {
+  animation-duration: 7s;
+}
+.shape15 {
+  animation-duration: 9s;
+}
+/* Heart */
 .shape5,
 .shape16 {
-  width: 60px;
-  height: 60px;
-  animation-duration: 5.5s;
+  width: 100px;
+  height: 100px;
+  animation-duration: 9s;
+  background-image: linear-gradient(#ffeb3b, #1ee9e6);
+  clip-path: polygon(-43% 0, 50% 91%, 143% 0);
 }
-
+.shape5 {
+  animation-duration: 9s;
+}
+.shape16 {
+  animation-duration: 12s;
+}
+/* Hexagon */
 .shape6,
 .shape17 {
-  width: 45px;
-  height: 45px;
-  animation-duration: 6.5s;
+  width: 90px;
+  height: 90px;
+  background-image: linear-gradient(#00bcd4, #9e9e9e);
   clip-path: polygon(
     100% 50%,
     75% 93.3%,
@@ -82,41 +106,85 @@
     75% 6.7%
   );
 }
+.shape6 {
+  animation-duration: 5s;
+}
+.shape17 {
+  animation-duration: 8s;
+}
 
 .shape7,
 .shape20 {
-  width: 30px;
-  height: 30px;
-  animation-duration: 5.2s;
+  width: 75px;
+  height: 75px;
+}
+.shape7 {
+  animation-duration: 8.2s;
+}
+.shape20 {
+  animation-duration: 6.5s;
 }
 
 .shape8,
 .shape19 {
-  width: 30px;
-  height: 30px;
+  width: 95px;
+  height: 95px;
+}
+.shape8 {
   animation-duration: 5.7s;
+}
+.shape19 {
+  animation-duration: 11s;
 }
 
 .shape9 {
-  width: 40px;
-  height: 40px;
-  animation-duration: 6.8s;
+  width: 90px;
+  height: 90px;
+  animation-duration: 6s;
+  background-image: linear-gradient(#ef4444, #f97316);
+  clip-path: polygon(
+    50% 5%,
+    61% 40%,
+    98% 40%,
+    68% 62%,
+    79% 96%,
+    50% 75%,
+    21% 96%,
+    32% 62%,
+    2% 40%,
+    39% 40%
+  );
 }
 
 .shape10 {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   animation-duration: 7.5s;
+  background-image: linear-gradient(#ff5722, #009688);
+  clip-path: polygon(-43% 0, 50% 91%, 143% 0);
 }
 .shape11 {
   width: 100px;
   height: 100px;
-  animation-duration: 5s;
+  animation-duration: 8s;
+  background-image: linear-gradient(#e91e63, #673ab7);
+  clip-path: polygon(
+    50% 5%,
+    61% 40%,
+    98% 40%,
+    68% 62%,
+    79% 96%,
+    50% 75%,
+    21% 96%,
+    32% 62%,
+    2% 40%,
+    39% 40%
+  );
 }
 .shape12 {
   width: 90px;
   height: 90px;
-  animation-duration: 6s;
+  animation-duration: 8s;
 }
 
 @keyframes spin {
@@ -129,8 +197,8 @@
     transform: translateY(100vh);
   }
 }
-/* Text Animation */
 
+/* Text Animation */
 .wrapper {
   position: relative;
 }
