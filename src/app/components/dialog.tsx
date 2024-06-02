@@ -22,12 +22,12 @@ const Dialog = ({ isOpen, onClose }: DialogProps) => {
           </button>
         </div>
         <div className="relative p-4 font-serif text-base antialiased font-light leading-relaxed border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 text-blue-gray-500">
-          "The 'Mona Lisa,' painted by Leonardo da Vinci between 1503 and 1506,
-          is a masterpiece of the Italian Renaissance. Known for her enigmatic
-          expression, the 'Mona Lisa' has captivated viewers for centuries. This
-          portrait, housed in the Louvre Museum, is renowned for its exquisite
-          detail and innovative use of sfumato. Discover the secrets behind her
-          smile by clicking below."
+          &quot;The &apos;Mona Lisa,&apos; painted by Leonardo da Vinci between
+          1503 and 1506, is a masterpiece of the Italian Renaissance. Known for
+          her enigmatic expression, the &apos;Mona Lisa&apos; has captivated
+          viewers for centuries. This portrait, housed in the Louvre Museum, is
+          renowned for its exquisite detail and innovative use of sfumato.
+          Discover the secrets behind her smile by clicking below.&quot;
         </div>
         <div className="flex flex-wrap items-center justify-end p-4 shrink-0 text-blue-gray-500">
           <button
