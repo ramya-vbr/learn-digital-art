@@ -38,13 +38,6 @@ const Dialog = ({ isOpen, onClose }: DialogProps) => {
           >
             Cancel
           </button>
-          {/* <button
-            data-ripple-light="true"
-            data-dialog-close="true"
-            className="middle none center rounded-lg bg-gradient-to-tr from-green-600 to-green-400 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-500/20 transition-all hover:shadow-lg hover:shadow-green-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          >
-            Confirm
-          </button> */}
         </div>
       </div>
     </div>

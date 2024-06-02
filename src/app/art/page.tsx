@@ -1,4 +1,3 @@
-// import Link from "next/link";
 import "./art.css";
 
 export default function Art() {
