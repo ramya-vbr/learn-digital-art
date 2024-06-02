@@ -26,8 +26,7 @@ const Dialog = ({ isOpen, onClose }: DialogProps) => {
           1503 and 1506, is a masterpiece of the Italian Renaissance. Known for
           her enigmatic expression, the &apos;Mona Lisa&apos; has captivated
           viewers for centuries. This portrait, housed in the Louvre Museum, is
-          renowned for its exquisite detail and innovative use of sfumato.
-          Discover the secrets behind her smile by clicking below.&quot;
+          renowned for its exquisite detail and innovative use of sfumato.&quot;
         </div>
         <div className="flex flex-wrap items-center justify-end p-4 shrink-0 text-blue-gray-500">
           <button
