@@ -11,7 +11,7 @@ const Dialog = ({ isOpen, onClose }: DialogProps) => {
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white p-6 rounded shadow-lg w-1/3">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-base font-semibold">
+          <h2 className="text-black font-semibold">
             Mona Lisa by Leonardo da Vinci
           </h2>
           <button
@@ -21,7 +21,7 @@ const Dialog = ({ isOpen, onClose }: DialogProps) => {
             &times;
           </button>
         </div>
-        <div className="relative p-4 font-sans text-base antialiased font-light leading-relaxed border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 text-blue-gray-500">
+        <div className="relative p-4 font-sans text-base antialiased font-light leading-relaxed border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 text-black">
           &quot;The &apos;Mona Lisa,&apos; painted by Leonardo da Vinci between
           1503 and 1506, is a masterpiece of the Italian Renaissance. Known for
           her enigmatic expression, the &apos;Mona Lisa&apos; has captivated
